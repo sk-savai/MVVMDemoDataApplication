@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVVMDemoDataApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">Id</string>
+    <string name="tittle">Tittle</string>
+    <string name="price">Price</string>
+</resources>
