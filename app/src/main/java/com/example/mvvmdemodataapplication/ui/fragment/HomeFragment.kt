@@ -41,18 +41,21 @@ class HomeFragment : Fragment() {
 
 
         //Diffutils
-        recyclarViewDiff()
+/*        recyclarViewDiff()*/
 
         //Recyclar Adapter
 /*        recyclarView()*/
 
+        //Generic Adapter
+        genericAdapter()
 
-        cardViewModel.liveData.observe(viewLifecycleOwner) {
+
+/*        cardViewModel.liveData.observe(viewLifecycleOwner) {
             if (it != null){
                 diffutilesAdapter.submitList(it.carts!![2]?.products!!)
             }
             Log.d("Data", it.carts!![2]?.products.toString())
-        }
+        }*/
 
 
 
@@ -72,15 +75,19 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
-    private fun recyclarViewDiff() {
+/*    private fun recyclarViewDiff() {
         diffutilesAdapter= DiffutilesAdapter()
         binding.rvRecyclarView.adapter=diffutilesAdapter
-    }
+    }*/
 
 /*    private fun recyclarView() {
         adapter= CardAdapter(cardList)
         binding.rvRecyclarView.adapter=adapter
     }*/
+
+    fun genericAdapter(){
+
+    }
 
 
 }
